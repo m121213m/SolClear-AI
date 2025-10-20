@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SolClear AI | Solar Panel Monitoring Reinvented</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="#top" class="logo" aria-label="SolClear AI home">
+          <img src="assets/solclear-logo.svg" alt="SolClear AI" class="logo-mark" />
+          <span class="logo-type">SolClear<span>AI</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#solution">What's SolClear?</a>
+          <a href="#apply">Apply Now</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#about">About</a>
+        <a href="#solution">What's SolClear?</a>
+        <a href="#apply">Apply Now</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h1>AI-Powered Solar Clarity for Demanding Environments</h1>
+            <p>
+              SolClear AI couples panel-mounted imaging with live electrical sensing to keep
+              photovoltaic assets operating at peak performance—even in harsh, dust-prone
+              climates.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#apply">Partner with Us</a>
+              <a class="btn secondary" href="#solution">Discover the Platform</a>
+            </div>
+            <dl class="hero-stats">
+              <div>
+                <dt>40%</dt>
+                <dd>Potential production loss when dust is left unchecked on PV assets.</dd>
+              </div>
+              <div>
+                <dt>Raspberry Pi 5</dt>
+                <dd>Edge processing hub orchestrating imaging and sensor fusion.</dd>
+              </div>
+              <div>
+                <dt>1 Camera</dt>
+                <dd>Strategically mounted per array to proxy dust levels across every panel.</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orb"></div>
+            <div class="card">
+              <h2>SolClear Dashboard</h2>
+              <ul>
+                <li><span>Dust Index</span><strong>Low</strong></li>
+                <li><span>Panel Health</span><strong>97%</strong></li>
+                <li><span>Energy Recovery</span><strong>+12%</strong></li>
+                <li><span>Next Clean Cycle</span><strong>36 hrs</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container section-grid">
+          <div>
+            <h2>About SolClear AI</h2>
+            <p>
+              We are a UAE-based initiative dedicated to maximizing solar efficiency in the
+              world’s most challenging environments. SolClear AI is driven by an HCT student
+              team focused on delivering data-driven clarity to solar farm operators across the
+              region.
+            </p>
+            <p>
+              Our mission is to empower governments and enterprises with actionable insight,
+              reducing maintenance costs, optimizing cleaning schedules, and extending the life
+              of critical renewable infrastructure.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Our Values</h3>
+            <ul>
+              <li><strong>Innovation:</strong> Purpose-built AI models trained on Middle East dust patterns.</li>
+              <li><strong>Reliability:</strong> Resilient monitoring that thrives in heat, sand, and salt.</li>
+              <li><strong>Partnership:</strong> Tailored engagements for government agencies and utility providers.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="solution" class="section solution">
+        <div class="container">
+          <h2>What’s SolClear?</h2>
+          <p class="lead">
+            SolClear AI unites AI-powered image analysis with real-time electrical data to detect
+            dust accumulation and quantify performance impact across photovoltaic arrays.
+          </p>
+          <p>
+            The SolClear AI project combines a Raspberry Pi 5, a high-resolution camera, and
+            Arduino-based voltage and current sensors to capture synchronized visuals and
+            electrical readings throughout the day. By labeling images with measured power
+            losses, the system trains machine learning models that can classify dust levels and
+            predict energy impact automatically, reducing manual inspections and extending asset
+            life for solar installations across the UAE.
+          </p>
+          <div class="feature-grid">
+            <article>
+              <h3>Camera-Captured Reality</h3>
+              <p>
+                A high-resolution camera mounted to a representative panel watches for dust,
+                soiling, and shading—no satellite imagery required. Because dust settles evenly
+                across arrays, a single vantage point provides actionable insight for every
+                string.
+              </p>
+            </article>
+            <article>
+              <h3>Sensor Fusion Intelligence</h3>
+              <p>
+                A Raspberry Pi 5 synchronizes camera frames with Arduino-powered voltage and
+                current sensors, creating a labeled dataset that links visual dust levels to real
+                power losses throughout the day.
+              </p>
+            </article>
+            <article>
+              <h3>Predictive Operations</h3>
+              <p>
+                Machine learning models trained on synchronized imagery and electrical data
+                forecast cleaning windows, energy recovery, and maintenance priorities—turning
+                manual inspections into automated intelligence.
+              </p>
+            </article>
+          </div>
+          <div class="stats-banner">
+            <div>
+              <span class="label">Dust Impact</span>
+              <strong>Up to 40%</strong>
+              <p>energy loss annually without effective monitoring.</p>
+            </div>
+            <div>
+              <span class="label">Recovery</span>
+              <strong>12-18%</strong>
+              <p>average production gain after SolClear-guided cleaning cycles.</p>
+            </div>
+            <div>
+              <span class="label">Coverage</span>
+              <strong>100%</strong>
+              <p>remote visibility by extrapolating array health from synchronized sensing.</p>
+            </div>
+          </div>
+          <div class="hardware-callout">
+            <h3>Hardware Snapshot</h3>
+            <ul>
+              <li>Raspberry Pi 5 handles edge inference and secure data uplinks.</li>
+              <li>Arduino-based voltage and current sensors capture live performance metrics.</li>
+              <li>High-resolution camera streams dust visuals from a single reference panel.</li>
+              <li>Time-synced datasets train SolClear’s dust classification and loss prediction models.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="apply" class="section apply">
+        <div class="container apply-grid">
+          <div>
+            <h2>Apply for Partnership</h2>
+            <p>
+              Whether you manage national energy initiatives or private solar portfolios, we
+              offer tailored pilots, contract engagements, and co-investment opportunities.
+            </p>
+            <ul class="apply-list">
+              <li>Government agencies seeking proactive solar asset maintenance.</li>
+              <li>Utility-scale operators pursuing predictive cleaning schedules.</li>
+              <li>Investors exploring AI-driven climate technology.</li>
+            </ul>
+          </div>
+          <form class="apply-form" action="https://formsubmit.co/H00472484@hct.ac.ae" method="POST">
+            <input type="hidden" name="_subject" value="New SolClear AI Partnership Inquiry" />
+            <label>
+              Organization Name
+              <input type="text" name="organization" placeholder="Enter your organization" required />
+            </label>
+            <label>
+              Contact Name
+              <input type="text" name="name" placeholder="Enter your full name" required />
+            </label>
+            <label>
+              Email Address
+              <input type="email" name="email" placeholder="name@example.com" required />
+            </label>
+            <label>
+              Engagement Interest
+              <select name="interest" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="Pilot Project">Pilot Project</option>
+                <option value="Long-term Contract">Long-term Contract</option>
+                <option value="Investment Discussion">Investment Discussion</option>
+              </select>
+            </label>
+            <label>
+              Additional Details
+              <textarea name="message" rows="4" placeholder="Share objectives, timelines, or questions"></textarea>
+            </label>
+            <button type="submit" class="btn primary">Submit Application</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="logo" aria-label="SolClear AI home">
+            <img src="assets/solclear-logo.svg" alt="SolClear AI" class="logo-mark" />
+            <span class="logo-type">SolClear<span>AI</span></span>
+          </a>
+          <p>
+            AI-powered solar monitoring built in the UAE to deliver reliability, transparency,
+            and cleaner energy production across large-scale assets.
+          </p>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><strong>Team:</strong> HCT Student Innovation Project</li>
+            <li><strong>Email:</strong> <a href="mailto:H00472484@hct.ac.ae">H00472484@hct.ac.ae</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+971527508501">+971 52 750 8501</a></li>
+            <li><strong>Location:</strong> Ras Al Khaimah, UAE</li>
+          </ul>
+        </div>
+        <div class="footer-cta">
+          <h3>Ready to collaborate?</h3>
+          <p>We partner with governments and enterprises to accelerate renewable resilience.</p>
+          <a class="btn secondary" href="#apply">Start the conversation</a>
+        </div>
+      </div>
+      <p class="footer-meta">&copy; <span id="year"></span> SolClear AI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
