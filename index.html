@@ -15,7 +15,10 @@
   <body>
     <header class="site-header">
       <div class="container header-content">
-        <a href="#top" class="logo">SolClear<span>AI</span></a>
+        <a href="#top" class="logo" aria-label="SolClear AI home">
+          <img src="assets/solclear-logo.svg" alt="SolClear AI" class="logo-mark" />
+          <span class="logo-type">SolClear<span>AI</span></span>
+        </a>
         <nav class="main-nav" aria-label="Main navigation">
           <a href="#about">About</a>
           <a href="#solution">What's SolClear?</a>
@@ -43,8 +46,8 @@
           <div class="hero-text">
             <h1>AI-Powered Solar Clarity for Demanding Environments</h1>
             <p>
-              SolClear AI combines satellite-grade imaging, computer vision, and predictive
-              analytics to keep solar assets operating at peak performance—even in harsh
+              SolClear AI couples panel-mounted imaging with live electrical sensing to keep
+              photovoltaic assets operating at peak performance—even in harsh, dust-prone
               climates.
             </p>
             <div class="hero-actions">
@@ -54,15 +57,15 @@
             <dl class="hero-stats">
               <div>
                 <dt>40%</dt>
-                <dd>Potential energy loss from dust buildup without intervention.</dd>
+                <dd>Potential production loss when dust is left unchecked on PV assets.</dd>
               </div>
               <div>
-                <dt>24/7</dt>
-                <dd>Continuous remote monitoring powered by SolClear AI.</dd>
+                <dt>Raspberry Pi 5</dt>
+                <dd>Edge processing hub orchestrating imaging and sensor fusion.</dd>
               </div>
               <div>
-                <dt>&lt; 4 weeks</dt>
-                <dd>Typical deployment timeline for utility-scale pilots.</dd>
+                <dt>1 Camera</dt>
+                <dd>Strategically mounted per array to proxy dust levels across every panel.</dd>
               </div>
             </dl>
           </div>
@@ -86,9 +89,9 @@
           <div>
             <h2>About SolClear AI</h2>
             <p>
-              We are a UAE-based team dedicated to maximizing solar efficiency in the world’s
-              most challenging environments. SolClear AI was founded by Mohammed Abdulla and
-              Sulaiman Majd to deliver data-driven clarity to solar farm operators across the
+              We are a UAE-based initiative dedicated to maximizing solar efficiency in the
+              world’s most challenging environments. SolClear AI is driven by an HCT student
+              team focused on delivering data-driven clarity to solar farm operators across the
               region.
             </p>
             <p>
@@ -112,29 +115,41 @@
         <div class="container">
           <h2>What’s SolClear?</h2>
           <p class="lead">
-            SolClear AI is an end-to-end monitoring suite combining computer vision, IoT
-            telemetry, and predictive maintenance workflows designed for solar assets.
+            SolClear AI unites AI-powered image analysis with real-time electrical data to detect
+            dust accumulation and quantify performance impact across photovoltaic arrays.
+          </p>
+          <p>
+            The SolClear AI project combines a Raspberry Pi 5, a high-resolution camera, and
+            Arduino-based voltage and current sensors to capture synchronized visuals and
+            electrical readings throughout the day. By labeling images with measured power
+            losses, the system trains machine learning models that can classify dust levels and
+            predict energy impact automatically, reducing manual inspections and extending asset
+            life for solar installations across the UAE.
           </p>
           <div class="feature-grid">
             <article>
-              <h3>Computer Vision Insight</h3>
+              <h3>Camera-Captured Reality</h3>
               <p>
-                Our AI models analyze high-resolution imagery to detect dust coverage,
-                hotspots, and panel degradation—long before it impacts your energy output.
+                A high-resolution camera mounted to a representative panel watches for dust,
+                soiling, and shading—no satellite imagery required. Because dust settles evenly
+                across arrays, a single vantage point provides actionable insight for every
+                string.
               </p>
             </article>
             <article>
-              <h3>Actionable Efficiency Metrics</h3>
+              <h3>Sensor Fusion Intelligence</h3>
               <p>
-                Receive automated alerts with quantified energy loss projections and cleaning
-                recommendations, so teams can schedule interventions precisely when needed.
+                A Raspberry Pi 5 synchronizes camera frames with Arduino-powered voltage and
+                current sensors, creating a labeled dataset that links visual dust levels to real
+                power losses throughout the day.
               </p>
             </article>
             <article>
-              <h3>Scalable Integrations</h3>
+              <h3>Predictive Operations</h3>
               <p>
-                SolClear connects with existing SCADA systems and asset management platforms,
-                delivering trusted data streams for executives, engineers, and field crews.
+                Machine learning models trained on synchronized imagery and electrical data
+                forecast cleaning windows, energy recovery, and maintenance priorities—turning
+                manual inspections into automated intelligence.
               </p>
             </article>
           </div>
@@ -152,8 +167,17 @@
             <div>
               <span class="label">Coverage</span>
               <strong>100%</strong>
-              <p>remote visibility across every panel in your portfolio.</p>
+              <p>remote visibility by extrapolating array health from synchronized sensing.</p>
             </div>
+          </div>
+          <div class="hardware-callout">
+            <h3>Hardware Snapshot</h3>
+            <ul>
+              <li>Raspberry Pi 5 handles edge inference and secure data uplinks.</li>
+              <li>Arduino-based voltage and current sensors capture live performance metrics.</li>
+              <li>High-resolution camera streams dust visuals from a single reference panel.</li>
+              <li>Time-synced datasets train SolClear’s dust classification and loss prediction models.</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -208,7 +232,10 @@
     <footer id="contact" class="site-footer">
       <div class="container footer-grid">
         <div>
-          <a href="#top" class="logo">SolClear<span>AI</span></a>
+          <a href="#top" class="logo" aria-label="SolClear AI home">
+            <img src="assets/solclear-logo.svg" alt="SolClear AI" class="logo-mark" />
+            <span class="logo-type">SolClear<span>AI</span></span>
+          </a>
           <p>
             AI-powered solar monitoring built in the UAE to deliver reliability, transparency,
             and cleaner energy production across large-scale assets.
@@ -217,7 +244,7 @@
         <div class="footer-contact">
           <h3>Contact</h3>
           <ul>
-            <li><strong>Team:</strong> Mohammed Abdulla &bull; Sulaiman Majd</li>
+            <li><strong>Team:</strong> HCT Student Innovation Project</li>
             <li><strong>Email:</strong> <a href="mailto:H00472484@hct.ac.ae">H00472484@hct.ac.ae</a></li>
             <li><strong>Phone:</strong> <a href="tel:+971527508501">+971 52 750 8501</a></li>
             <li><strong>Location:</strong> Ras Al Khaimah, UAE</li>
